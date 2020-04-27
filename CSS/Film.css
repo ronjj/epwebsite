@@ -1,11 +1,52 @@
-.Film {
-    text-align: center;
-    display: inline-block;
-    margin: 0% 45% 0%;
+body {
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.head {
+  text-align: center;
   }
   
-.Periodic {
-    display: inline-block;
-    background-color: black;
-    color: white;
+.Film {
+  display: inline;
+  font-size: 25pt;
+}
+
+.PeriodicB {
+  display: inline-block;
+  cursor: pointer;
+  background-color: black;
+  width: 80pt;
+  color: white;
+  float: right;
+  font-size: 15pt;
+  text-decoration: none;
+}
+
+.Lorem {
+  font-size: 20pt;
+  color: rgb(110, 109, 109);
+  margin-top: 50pt;
+}
+
+.Fishing {
+  margin-right: 50pt;
+}
+
+.Forest {
+  margin-right: 50pt;
+}
+
+.movietxt {
+  font-size: 20pt;
+}
+
+.Fishingt {
+  margin-left: 50pt;
+  margin-right: 190pt;
+}
+
+.Forestt {
+  margin-right: 190pt;
 }
