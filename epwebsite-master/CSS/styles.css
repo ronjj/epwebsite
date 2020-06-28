@@ -1,0 +1,375 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  
+  }
+
+
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    
+  }
+
+
+.Element-heading {
+  font-family: 'Felix Titling';
+  font-size: 600%;
+  margin-bottom: 40px;
+  letter-spacing: 20px;
+}
+
+
+
+.learnmore {  
+  cursor: pointer;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 40px;
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(110, 109, 109); 
+  font-size: 30pt;
+  font-family: 'Poppins' , sans-serif ;
+}
+
+
+
+
+
+#Mission {
+  background-color: rgb(187, 184, 184);
+  padding-bottom: 40pt;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 50vh;
+  font-family: 'Poppins';
+
+}
+
+.MissionH {
+  text-align: center;
+  font-size: 30pt;
+  padding-top: 50pt;
+}
+
+.MissionP {
+  margin-top: 40pt;
+  padding-left: 100pt;
+  padding-right: 100pt;
+  font-size: 25pt;
+  font-weight: 300;
+}
+
+
+
+.quote {
+  padding-top: 125pt;
+  padding-bottom: 125pt;
+  padding-left: 100pt;
+  padding-right: 100pt;
+  font-size: 50pt;
+  font-family: 'Poppins';
+  height: 25vh;
+
+}
+
+
+@media (min-width: 441px) and (max-width: 540px) {
+  .quote {
+    font-size: 25pt;
+  }
+}
+
+@media (max-width: 440px) {
+  .quote {
+    font-size: 20pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+  }
+}
+
+.name {
+  padding-top: 30pt;
+  font-size: 25pt;
+}
+
+
+
+.links {
+  background-color: rgb(187, 184, 184);
+  padding-top: 20pt;
+  padding-bottom: 300pt;
+  height: 65vh;
+  overflow: hidden;
+  
+}
+
+ /* Element Projects Bottom Header */
+ 
+.ElementP {
+  text-align: center;
+  font-size: 50pt;
+  font-family: 'Poppins';
+}
+
+
+
+/* Btns is container for film and periodic */
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200pt;
+  padding-right: 200pt;
+  font-size: 35pt;
+  margin: 50pt 20pt;
+  cursor: pointer;
+  
+}
+
+.film-card{
+  overflow: hidden;
+  border-width:20px;
+}
+
+.periodic-card {
+  overflow: hidden;
+}
+
+.film {
+  text-decoration: blue;
+  padding: 20px;
+  
+}
+
+.periodic {
+  padding: 20px;
+  text-decoration: blue;
+  
+}
+
+
+
+
+
+
+/*
+.btns {
+  padding-left: 200pt;
+  padding-right: 200pt;
+  font-size: 35pt;
+  margin: 50pt 20pt;
+  cursor: pointer;
+}
+
+
+.film {
+  float: left;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 8px;
+  text-decoration: blue;
+}
+
+.periodic {
+  float: right;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 8px;
+  text-decoration: blue;
+}
+*/
+
+
+
+
+
+
+/*Responsive Design */
+
+@media (max-width: 490px) {
+  .ElementP {
+    font-size: 40pt;
+  }
+}
+
+@media (max-width: 400px) {
+  .ElementP {
+    font-size: 30pt;
+  }
+}
+  
+
+@media (min-width: 585px) and (max-width: 878px) {
+  .btns {
+    padding-left: 100pt;
+    padding-right: 100pt;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 584px) {
+  .btns {
+    padding-left: 10pt;
+    padding-right: 10pt;
+  }
+}
+
+@media (max-width: 424px) {
+  .btns {
+    padding-left: 20pt;
+    padding-right: 20pt;
+  }
+}
+
+@media (max-width: 370px) {
+  .btns {
+    padding-left: 0pt;
+    padding-right: 0pt;
+  }
+}
+
+
+
+/*
+
+.rows {
+  margin: auto;
+  width: 100%;
+}
+
+.element-squares-1{
+  display: flex;
+  justify-content: space-evenly ;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 200px;
+
+}
+
+
+
+.element{
+  color: #000000;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 40px;
+  width: 500px;
+  height: 500px;
+  font-family: 'Poppins';
+
+}
+
+*/
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family: 'Felix Titling';
+  font-weight: lighter;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  overflow: hidden;
+  
+
+}
+
+.card {
+  width: 40%;
+  border: 3px solid #000000;
+  border-radius: 75px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  margin-top: 80px;
+
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  
+}
+
+.card-body {
+  padding: 10px 20px 200px 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+
+.link {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  border-radius: 25px;
+}
