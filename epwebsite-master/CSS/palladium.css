@@ -25,6 +25,7 @@
 /* Header and Subtitle */
 
 .header{
+  margin-top: 0px;
   color: #000000;
   text-align: center;
   padding: 40px;
@@ -32,12 +33,22 @@
 }
 
 .header h1{
-  margin-bottom: 0px;
+  margin-bottom: auto;
+  font-family: 'Poppins' , sans-serif;
 }
 
 .header h4{
   color: grey;
-  margin-top: 0px;
+  margin-top: auto;
   padding-top: 0px;
+  font-family: 'Poppins' , sans-serif;
 }
 
+.episode-description {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.media-player {
+  margin-bottom: 0px;
+}
