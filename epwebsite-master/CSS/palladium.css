@@ -14,3 +14,30 @@
    cursor: pointer;
    font-family: 'Poppins';
 }
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+/* Header and Subtitle */
+
+.header{
+  color: #000000;
+  text-align: center;
+  padding: 40px;
+  font-size: 28px;
+}
+
+.header h1{
+  margin-bottom: 0px;
+}
+
+.header h4{
+  color: grey;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
